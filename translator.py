@@ -1,11 +1,5 @@
 
 from tkinter import *
-#from __init__ import eng2mors
-#entry widget is a textbox that accepts a single line of input
-
-# entry widget = textbox that accepts a single line of user input
-
-from tkinter import *
 
 def  submit():
   
@@ -59,14 +53,11 @@ backspace = Button(window,text="backspace",command=backspace)
 backspace.pack(side = RIGHT)
 
 entry = Entry()
-entry.config(font=('Ink Free',50)) #change font
-entry.config(bg='#111111') #background
-entry.config(fg='#00FF00') #foreground
-entry.config(width=10) #width displayed in characters
-#entry.insert(0,'Spongebob') #set default text
-#entry.config(state=DISABLED) #ACTIVE/DISABLED
-#entry.config(show='*') #replace characters shown with x character
+entry.config(font=('Ink Free',50)) 
+entry.config(bg='#111111') 
+entry.config(fg='#00FF00')
 entry.pack()
+entry.config(width=10)
 window.mainloop()
 
 
